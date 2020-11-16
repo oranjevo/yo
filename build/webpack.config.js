@@ -66,7 +66,7 @@ module.exports = env => {
           ],
         },
         {
-          test: /\.scss$/,
+          test: /\.sass$/,
           use: [
             env === 'development' ? 'style-loader' : MiniCssExtractPlugin.loader, // creates style nodes from JS strings
             { loader: 'css-loader', options: { importLoaders: 1, minimize: true, sourceMap: true, colormin: false } }, // translates CSS into CommonJS

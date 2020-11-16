@@ -1,9 +1,12 @@
 {
-  "name": "my-project",
-  "version": "0.0.1",
-  "description": "My project description",
+  "name": "graphs",
+  "version": "1.0.0",
+  "description": "animation header graphs",
   "main": "app.js",
-  "repository": "git@github.com:my-user/my-repo.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/my-user/my-repo.git"
+  },
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -49,6 +52,13 @@
     "gsap": "^1.20.4",
     "jquery": "^3.5.0",
     "normalize.css": "^8.0.0",
-    "scrollmagic": "^2.0.5"
-  }
+    "scrollmagic": "^2.0.5",
+    "snapsvg": "^0.5.1",
+    "snapsvg-cjs": "0.0.6"
+  },
+  "bugs": {
+    "url": "https://github.com/my-user/my-repo/issues"
+  },
+  "homepage": "https://github.com/my-user/my-repo#readme",
+  "author": "oranjevo"
 }
